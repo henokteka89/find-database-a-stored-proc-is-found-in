@@ -1,6 +1,6 @@
 DECLARE @DatabaseName NVARCHAR(256)
-DECLARE @Query VARCHAR(MAX)
-DECLARE @ProcedureName VARCHAR(256) = 'yourstoredprocedurenamehere' -- Replace with your procedure name
+DECLARE @Query NVARCHAR(MAX)
+DECLARE @ProcedureName NVARCHAR(256) = 'yourstoredprocedurenamehere' -- Replace with your procedure name
 
 -- Cursor to go through all databases
 DECLARE db_cursor CURSOR FOR  
